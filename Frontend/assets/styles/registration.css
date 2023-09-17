@@ -15,51 +15,70 @@ body {
   background-size: cover;
 }
 
+.image-container {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+}
+
+.image {
+  width: 200px;
+  height: auto;
+  margin: 0;
+}
+
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(34, 255, 34, 0.7); /* Adjust the opacity as needed */
+  background-color: rgba(18, 126, 113, 0.7); /* Adjust the opacity as needed */
   display: flex;
   flex-direction: column;
 }
 /* Estilos para a seção de inscrição */
 .registration {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 40px;
 }
 
 .registration-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
   flex: 1;
   text-align: center;
-  padding: 20px;
   position: relative;
 }
 
 .registration h2 {
-  font-size: 28px;
+  font-size: 36px;
   margin-bottom: 20px;
-  color: #333;
+  color: #ffffff;
   position: relative;
 }
 
 .registration-form {
-  max-width: 400px;
+  /* max-width: 400px; */
   margin: 0 auto;
 }
 
 .form-group {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 20px;
   text-align: left;
 }
 
 .form-group label {
+  display: flex;
   font-size: 16px;
-  display: block;
   margin-bottom: 5px;
   color: #333;
 }
@@ -69,8 +88,8 @@ body {
 .form-group input[type="tel"],
 .form-group select,
 .form-group textarea {
-  width: 100%;
-  padding: 10px;
+  display: flex;
+  padding: 5px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -82,7 +101,7 @@ body {
 }
 
 .form-group button[type="submit"] {
-  background-color: #127e71;
+  background-color: #fb7a24;
   color: #fff;
   padding: 10px 20px;
   font-size: 18px;
@@ -90,17 +109,18 @@ body {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  box-shadow: 0 2px 10px #999;
 }
 
 .form-group button[type="submit"]:hover {
-  background-color: #0c594f;
+  background-color: #e2894e;
 }
 
 /* Estilos para a imagem de marketing */
 
 .columns-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex: 1;
 }
 
@@ -108,6 +128,9 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding-top: 20px;
 }
 
 .image-container {
