@@ -1,0 +1,17 @@
+{
+  "name": "charles/backend",
+  "description": "Backend para o hotsite do vestibular 2024 Unifeso",
+  "autoload": {
+    "psr-4": {
+      "Charles\\Backend\\": "src/",
+      "core\\": "core/"
+    }
+  },
+  "authors": [
+    {
+      "name": "charlescampista",
+      "email": "charlescampista@gmail.com"
+    }
+  ],
+  "require": {}
+}

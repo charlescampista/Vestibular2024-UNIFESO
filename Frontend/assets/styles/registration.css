@@ -1,0 +1,106 @@
+/* registration.css */
+
+/* Estilos para a seção de inscrição */
+.registration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.registration-content {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.registration h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.registration-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group button[type="submit"] {
+  background-color: #127e71;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-group button[type="submit"]:hover {
+  background-color: #0c594f;
+}
+
+/* Estilos para a imagem de marketing */
+
+.columns-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* Estilos para responsividade */
+@media screen and (max-width: 768px) {
+  .registration {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .registration-content {
+    margin-bottom: 20px;
+  }
+
+  .registration-image {
+    padding: 0;
+  }
+}

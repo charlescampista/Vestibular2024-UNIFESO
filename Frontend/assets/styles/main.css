@@ -1,0 +1,212 @@
+body,
+html {
+  font-family: "Muli", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  /*background-color: #127e71;*/
+  background-color: #fff;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 0 2px 10px #000;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Muli", sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333333;
+}
+
+.background-white {
+  background-color: white;
+}
+
+.background-gray {
+  background-color: #f2f2f2;
+}
+
+.footer {
+  background-color: #222222;
+  color: white;
+}
+
+.footer p {
+  color: white;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: row;
+  background-image: url(../images/campus.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  padding: 0;
+  position: relative;
+}
+
+.presentation-section-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.7); /* Adjust the opacity as needed */
+  display: flex;
+  flex-direction: column;
+}
+
+.presentation-content-text {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 15px;
+}
+
+.presentation-content-text h3 {
+  font-size: 20px;
+  text-align: justify;
+  color: #fff;
+}
+
+.presentation-content-img {
+  display: flex;
+  flex: 1;
+  position: relative;
+  flex-direction: column;
+  justify-content: end;
+  padding: 0;
+}
+
+.presentation-content-img img {
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fb7a24;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #e2894e;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #127e71;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #cccccc;
+}
+
+.unifeso-logo {
+  width: 90px;
+}
+
+.background-gray {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.feso-description {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.reasons-container {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.reasons-column {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+}
+
+.why-unifeso {
+  background-color: #127e71;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-unifeso h2 {
+  color: #fff;
+}
+
+.why-unifeso-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reason {
+  display: flex;
+
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px #999;
+  flex-direction: column;
+}
+
+.reason h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.reason p {
+  font-size: 14px;
+  color: #666;
+}
+
+.image {
+  margin: 10px;
+}
